@@ -1,4 +1,4 @@
-module left_shift_reg(
+module right_shift_reg(
 
 input a,
 input shift_en,
