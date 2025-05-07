@@ -1,10 +1,10 @@
-module left_shift_reg_tb;
+module right_shift_reg_tb;
 
   reg clk, rst_n, a, shift_en;
   wire [3:0] shift_out;
 
   // Instantiate the DUT (Device Under Test)
-  left_shift_reg dut (
+  right_shift_reg dut (
     .a(a),
     .shift_en(shift_en),
     .clk(clk),
